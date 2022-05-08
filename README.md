@@ -1,3 +1,5 @@
+## Shory-Keys
+* Ctrl + r -- search historical commands
 ## Quoting
   * partial quoting[double quote]
   * full quoting[single quote]--**A strong form of quoting than double quote**
@@ -30,3 +32,18 @@
   ```
 ## Placeholder for text
   `ls . | xargs -i -t cp ./{} $1`
+
+## **:** equals **true** basically
+
+## **type** is used to test if a command exist
+
+## Redirection
+* **scriptname > filename** overwrite filename if it already exists
+* **command &> filename** stdout and stderr of command to filename
+* **command > &2** redirects stdout of command to stderr
+
+* **~-** previous working directory
+* **~+** current working directory
+* Useful short keys
+  * C + T: reverse the char with previous one
+  * C + U: delete to the start of the line
