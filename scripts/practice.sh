@@ -38,13 +38,17 @@
 
 # exit 0
 
-for i in 1 2 3 4 5 6 7 8 9 0
-do
-  echo -n "$i "
-done
+# for i in 1 2 3 4 5 6 7 8 9 0
+# do
+#   echo -n "$i "
+# done
 
-for i in 11 12 13 14 15 16 17 18 19 20
-do
-  echo -n "$i "
-done
-exit 0
+# for i in 11 12 13 14 15 16 17 18 19 20
+# do
+#   echo -n "$i "
+# done
+# exit 0
+
+echo -n "Enter \"a\" "
+read a
+echo "The value of \"a\" is now $a."
